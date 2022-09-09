@@ -43,7 +43,7 @@ export default function Single({searchQuery}) {
                     <Text>Located in: {single.city}, {single.country} {'\n'}</Text>
                 : null
             }
-            <Text style = {{ color: '#666' }}>{single.follower_count} followers, {single.following_count} followers{'\n'}</Text>
+            <Text style = {{ color: '#666' }}>{single.follower_count} followers, {single.following_count} following{'\n'}</Text>
             {
                 single.is_pro
                 ?

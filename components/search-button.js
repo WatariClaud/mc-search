@@ -3,7 +3,6 @@ import { Feather } from "@expo/vector-icons";
 
 export default function SearchButton({navigation, name}) {
     const getResults = async(searchQuery) => {
-        // console.log(name, navigation);
         if(!searchQuery) return alert('Cannot parse empty query');
         return navigation.navigate('Search Results', { searchQuery });
     }
